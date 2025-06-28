@@ -32,7 +32,8 @@ const MyAccount = () => {
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem('authToken');
+    localStorage.removeItem('token');
+    localStorage.removeItem('user');
     window.dispatchEvent(new Event('authChanged'));
     navigate('/login');
   };
