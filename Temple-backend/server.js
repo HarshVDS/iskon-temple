@@ -17,7 +17,7 @@ connectDB()
 
 app.use(express.json())
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://iscon-f.vercel.app'],
+    origin: ['https://iskon-temple.vercel.app'],
     credentials: true,
     
 }))

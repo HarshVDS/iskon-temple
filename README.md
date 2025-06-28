@@ -7,6 +7,11 @@ This is a full-stack web application for ISKCON temple management with disciple 
 - `Temple-backend/` - Node.js/Express backend API
 - `Temple-Frontend/` - React.js frontend application
 
+## Live Deployment
+
+- **Frontend**: https://iskon-temple.vercel.app/
+- **Backend API**: https://iskon-temple-b.vercel.app/
+
 ## Local Development Setup
 
 ### Prerequisites
@@ -59,15 +64,15 @@ This is a full-stack web application for ISKCON temple management with disciple 
    npm start
    ```
 
-   The frontend will run on `http://localhost:4000`
+   The frontend will run on `http://localhost:3000`
 
 ## API Configuration
 
-The project has been configured for local development:
+The project has been configured for production deployment:
 
-- **Frontend API Base URL**: `http://localhost:4000/api`
-- **Backend CORS Origin**: `http://localhost:4000`
-- **Email Links**: All email links now point to `http://localhost:4000`
+- **Frontend API Base URL**: `https://iskon-temple-b.vercel.app/api`
+- **Backend CORS Origin**: `https://iskon-temple.vercel.app`
+- **Email Links**: All email links now point to `https://iskon-temple.vercel.app`
 
 ## Features
 

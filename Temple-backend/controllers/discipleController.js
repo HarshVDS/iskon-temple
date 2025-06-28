@@ -96,7 +96,7 @@ export const submitDiscipleForm = async (req, res) => {
       part2Token: token
     });
 
-const part2Link = `https://iscon-f.vercel.app/Reg?token=${token}`;
+const part2Link = `https://iskon-temple.vercel.app/Reg?token=${token}`;
 
     const transporter = nodemailer.createTransport({
       service: 'gmail',

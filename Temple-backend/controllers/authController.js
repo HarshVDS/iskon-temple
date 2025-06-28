@@ -174,7 +174,7 @@ export const forgotPassword = async (req, res) => {
   user.resetPasswordExpires = Date.now() + 3600000; // 1 hr
   await user.save();
 
-  const resetLink = `https://iscon-f.vercel.app/reset-password/${token}`;
+  const resetLink = `https://iskon-temple.vercel.app/reset-password/${token}`;
 
   // Check if email credentials are configured
   if (!process.env.MAIL_USER || !process.env.MAIL_PASS) {
